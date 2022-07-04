@@ -111,16 +111,21 @@ Siege
 - Springald (Req: Dark Age) (max 3 (excluding: mongol = max 2)) 
 Increased Range, bonus damage against Siege/Human. Added area of effect (Pie Shape) Hits enemies directly behind target.
 - Mangonel (Req: Fuedal Age (excluding: Mongol = Dark Age))  (max 2)
+
 Increased Damage, bonus damage against ranged / Added Fire Attack: Bonus damage against buildings
 - Trebuchet (Traction(max 2)/Counterweight(max 1))
 Increased Damage, increased range
 - Bombard/Cannon(max 1)
+- 
 Increased Damage, added area of effect (Pie Shape) Hits enemies directly behind target.
 - Ribauldequin(max 1)
+- 
 Increased Damage, added area of effect (Pie Shape) Hits enemies directly behind target.
 - Culverin (max 1)
+- 
 Increased Damage, added area of effect (Circle) Outer Radius 2.5
 - Ram (max 4)
+- 
 Requires 0 population, increased damage/HP
 - Siege Tower (max 10)
 
