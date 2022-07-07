@@ -23,6 +23,7 @@ Maximum populcation capacity is 250. Automatic Reinforcements go up to 300. Rein
 - Added Landsknecht  (Uses spearman model based on faction) (T4 Upgrade only allowed for original faction (HRE))
 - Added Horse Archer (Uses horseman model based on faction) (T4 Upgrade only allowed for original faction (RUS))
 - Added Traction Trebuchet
+- Added 'Great Trebuchet' (Age IV)
 
 All factions start with Traction Trebuchet (Age II) / Upgradable at Age III to Counterweight.
 
@@ -64,11 +65,13 @@ Passive ability increases nearby unit's damage against building.
 
 
 ### Buildings (All Factions)
-- Added Healing Camps 
 
-(NOT USED, CURRENTLY USES HOUSE. HEALS REGARDLESS OF COMBAT, COST 1k FOOD)
+- Added 'Healing Camp' to all faction
 
-Small tents that heal out of combat units in a small radius. Costs 1000 Wood.
+Cost 250 Wood. Passive: Heals out of combat units. Active (Cost 1000 Food) Heals nearby units. 300s Cooldown. Max 3
+- Added 'Stronghold' to all factions (Age 2 Keep)
+
+Cost 5000 Stone. Berkshire Palace weapons used. 20 Garrison slots. Max 1
 
 ### Faction Based Changes
 
@@ -85,7 +88,6 @@ Buildings
 
 Units
 - Added Fire Lancers (Uses Knight T3 model)
-- Added Great Trebuchet
 
 Deals Area of Effect Damage, does massive damage against buildings, increased range.
 
@@ -182,11 +184,18 @@ Decreased movement speed / Gather rates / Carry Capacity increased. Limited to m
 
 v1.0
 - Added 'Great Trebuchet' to all factions
+- Added 'Healing Camp' to all faction
+
+Cost 250 Wood. Passive: Heals out of combat units. Active (Cost 1000 Food) Heals nearby units. 300s Cooldown. Max 3
+- Added 'Stronghold' to all factions (Age 2 Keep)
+
+Cost 5000 Stone. Berkshire Palace weapons used. 20 Garrison slots. Max 1
 - Fixed Chinese Keep spawner
 - Fixed Chinese Villager build menu, landmarks (Chi)
 - Fixed Rus Villager blueprint of Militia
 - Fixed Mongol economy building requirement
 - Fixed Mongol Landsknecht double production requirement (ovoo)
+- Fixed Siege Workshop spawner for Ribauldequin (HRE)
 - Decreased cost Siege Workshop (15000 > 7500)
 - Decreased Springald damage against Special units
 - Increased Mangonel fire damage against siege/building & Increased range
