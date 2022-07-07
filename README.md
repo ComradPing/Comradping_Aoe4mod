@@ -180,6 +180,25 @@ Decreased movement speed / Gather rates / Carry Capacity increased. Limited to m
 
 ## Changelog
 
+v1.0
+- Added 'Great Trebuchet' to all factions
+- Fixed Chinese Keep spawner
+- Fixed Chinese Villager build menu, landmarks (Chi)
+- Fixed Rus Villager blueprint of Militia
+- Fixed Mongol economy building requirement
+- Fixed Mongol Landsknecht double production requirement (ovoo)
+- Decreased cost Siege Workshop (15000 > 7500)
+- Decreased Springald damage against Special units
+- Increased Mangonel fire damage against siege/building & Increased range
+- Decreased Ram HP/DMG (HP=1000,DMG=400)
+- Decreased Elephant ram DMG (350 > 250)
+- Decrease stone wall cost
+- Decreased upgrades cost 
+
+CBA Script
+- Fixed typo 2x
+- Added 'Great Trebuchet' to precache
+- Added help message when you receive a reward
 
 
 
