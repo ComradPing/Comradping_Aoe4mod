@@ -182,32 +182,38 @@ Decreased movement speed / Gather rates / Carry Capacity increased. Limited to m
 
 ## Changelog
 
-v1.0
+### v1.0
 - Added 'Great Trebuchet' to all factions
 - Added 'Healing Camp' to all faction
 
-Cost 250 Wood. Passive: Heals out of combat units. Active (Cost 1000 Food) Heals nearby units. 300s Cooldown. Max 3
+Cost 250 Wood. Passive: Heals out of combat units. Max 3
 - Added 'Stronghold' to all factions (Age 2 Keep)
 
 Cost 5000 Stone. Berkshire Palace weapons used. 20 Garrison slots. Max 1
+- Added active healing ability to Abbey of Kings. (Cost 1000 Food) Heals nearby units. 300s Cooldown. 
 - Fixed Chinese Keep spawner
 - Fixed Chinese Villager build menu, landmarks (Chi)
 - Fixed Rus Villager blueprint of Militia
 - Fixed Mongol economy building requirement
 - Fixed Mongol Landsknecht double production requirement (ovoo)
 - Fixed Siege Workshop spawner for Ribauldequin (HRE)
+- Increased Mangonel fire damage against siege/building & Increased range
+- Increased Torch damage for all units (10 > 25) / Removed bonus damage against Siege
 - Decreased cost Siege Workshop (15000 > 7500)
 - Decreased Springald damage against Special units
-- Increased Mangonel fire damage against siege/building & Increased range
 - Decreased Ram HP/DMG (HP=1000,DMG=400)
 - Decreased Elephant ram DMG (350 > 250)
-- Decrease stone wall cost
+- Decreased stone wall cost
 - Decreased upgrades cost 
+- Decreased Sultante upgrade times
+- Decreased Sacred Site age requirment for capture ability (Age 2)
+- Decreased Special Monk active heal radius, increased Conversion range when carrying Relic, Reduced Conversion cooldown when carrying Relic.
 
-CBA Script
+#### CBA Script
 - Fixed typo 2x
 - Added 'Great Trebuchet' to precache
 - Added help message when you receive a reward
+- Added option for Passive Income (50k p/m)
 
 
 
