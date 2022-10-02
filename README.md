@@ -218,6 +218,17 @@ Charge ability now deals Area of Effect damage
 
 Increased damage against ranged.
 
+- Fire Lancers
+
+Added to Mongol Faction. Charge ability now deals increased damage & increased range
+
+- Swordsman
+
+Swordsman are spearman with slight armor increase and Man at Arms weapons.
+
+Added to all factions. Upgrades tied to Spearman.
+
+
 
 
 
