@@ -2,28 +2,53 @@
 Age of Empires 4 / Comrad Ping's Mod
 
 A mod that focusses on combat in Age of Empires 4. Currently using Kzoacn's CBA gamemode as a base.
-Currently named: CBA Custom / CBA Tuning v2
+Currently named: CBA Onslaught / Onslaught Tuning
 
-( This page is unfinished. Features/Changes are still missing. Consider this list incompelte)
+( This page is unfinished. Some Features/Changes are still missing. Consider this list incompelte)
 
 ### Desciption:
 
 Combat is the focus of this mode. Each player starts with a Keep. You can produce Villagers & Special units from the keep.
 
-Eliminate enemey units to progress in Age and gain new rewards. (Age 2 = 50 Kills, Age 3 = 350 Kills, Age 4 = 1000 Kills)
+Eliminate enemey units to progress in Age and gain new rewards.
+Bonus points are gained by eliminating different types of units:
 
-Resources are automatically generated every 60 seconds. (You can select between 1000 p/m, 2500 p/m, 5000 p/m). You can use villagers for a slight increase.
++50 for eliminating Keeps
 
-Maximum populcation capacity is 250. Automatic Reinforcements go up to 300. Reinforcements arrive every 5 min. Group Size increased by Rewards. Age 4 replaces Men at Arms with Knights
++25 for eliminating Miltitary Production Building/Landmark/Defensive Structures
+
++10 for eliminating Siege/Town Center/Hero/Research Building
+
++5  for eliminating House/Economy Building/Elephants
+
+
+Default Setting: Resources are infinite, and reset every 1 min to max once you drop below the Threshold.
+
+(Optional Setting: Resources are automatically generated every 60 seconds. (You can select between 1000 p/m, 2500 p/m, 5000 p/m). You can use villagers for a slight increase)
+
+Maximum populcation can be set in the lobby.
+
+Default Population settings: Max 350 
+
+Automatic Reinforcements go up to (Max Pop) + 100
+
+Reward List has been changed. Upgrades are now gained by scoring points
+
+Setting for Passive Population Increase. Disables Houses/TC (Unlocked at 7500 Points) 
+
+ON by default, +10 every 2.30 min
 
 # New Units / Buildings
 
 #### All Factions
 - Added Ribauldequin
+- Added Culverin
 - Added Landsknecht  (Uses spearman model based on faction) (T4 Upgrade only allowed for original faction (HRE))
 - Added Horse Archer (Uses horseman model based on faction) (T4 Upgrade only allowed for original faction (RUS))
 - Added Traction Trebuchet
 - Added 'Great Trebuchet' (Age IV)
+- Added 'Swordsman' (Spearman with Man at Arms weapons)
+
 
 All factions start with Traction Trebuchet (Age II) / Upgradable at Age III to Counterweight.
 
@@ -39,7 +64,7 @@ Passive/Active ability buffs nearby unit's movement speed.
 
 Villager with shield, high damage slow attack speed.
 
-Passive ability increases Move/Build/Gather speed of neary villagers / Can field construct Siege Units.
+Passive ability increases Move/Build/Gather speed of neary villagers
 
 - Monk(Age I / Might be changed to Age II) :
 
@@ -95,10 +120,10 @@ Deals Area of Effect Damage, does massive damage against buildings, increased ra
 
 # Balance Changes
 
-- Capture Sacred Sites at Age II (not added yet) / Special Units can capture sacred sites
+- Capture Sacred Sites at Age II (not added yet) / Special Units can capture sacred sites (Exepct for Miltia/Scout)
 - Stone Walls can be burned while under construction
 - Stone Wall Gates can be burned
-- Siege & Horse can now move onto walls. (might disable horse on walls)
+- Siege can now move onto walls. 
 - Removed line of sight from all Walls
 - Increased HP palisade walls
 - Increased Range on all Ranged Units (excluding: handcannon/grenadier)
@@ -108,10 +133,13 @@ Deals Area of Effect Damage, does massive damage against buildings, increased ra
 - Dock limit is 5
 
 
-### Building/Unit Limits
-- Keeps limited to 2 (1 extra Keep / does not affect objective)
-- Siege units have been limited
-- Villagers limited to 20
+### Buildings
+- Keep Limited to 1.
+
+  Players can build a 'secondary' keep that uses different weapons from the main keep and has different visual features to help identify the difference.
+  
+  - Blacksmith now acts as a 'Production Booster' for nearby buildings. Doubles the production speed of nearby Buildings
+
 
 - Unit Production buildings limited (Buildings produce units in groups, numbers balanced based on unit type)
 
@@ -124,42 +152,47 @@ Max Cavalery Barracks = 3 (Rus = 4)
 Max Siege Workshop = 1
 
 
-
-
 ### Landmarks (Work in Progress/List incomplete)
 
 
-All Factions can now build both landmarks, Costs adjusted, Special Build Menu added.
-(Chinese are unfinished, cant build landmarks if you pass the age without building a landmark from passed age)
+All Factions can now build both landmarks.
 
+### French
+- School of Cavalry moved to AGE II. Can produce double amount of units
+
+### Rus
+- Kremlin increased Line of Sight
+- High Armory now acts as a Siege Workshop
 
 #### English
-- Archer Hall spawns groups
+- Abbey of Kings active ability heals nearby units (Available @ Age I)
+- Council Hall spawns groups
 - Wyngaurd Palace creates small army of knights/archers/men at arms
 
 #### HRE
-- Barracks produces groups
+- Meinwerk Palace now acts as a Production Booster to nearby buildings (Available @ Age I)
+- Burgrave Palace produces groups
 
 
 ### Siege Changes
 - Springald (Req: Dark Age) (max 3) 
 
-Increased Range, bonus damage against Siege/Human. Added area of effect (Pie Shape) Hits enemies directly behind target.
+Increased Range, bonus damage against Siege/Human. Added area of effect (Pie Shape) Hits enemies directly behind target. 
 - Mangonel (Req: Fuedal Age (excluding: Mongol = Dark Age)  (max 2)
 
-Increased Damage, bonus damage against ranged / Added Fire Attack: Bonus damage against buildings
-- Trebuchet (Traction(max 2)/Counterweight(max 1))
+Increased Damage, bonus damage against ranged / Added Fire Attack: Bonus damage against buildings. Effective against crowds
+- Trebuchet (Traction(max 2)/Counterweight(max 2))
 
 Increased Damage, increased range
-- Bombard/Cannon(max 1)
+- Bombard/Cannon(max 2)
 
 Increased Damage, added area of effect (Pie Shape) Hits enemies directly behind target.
 - Ribauldequin(max 1)
 
-Increased Damage, added area of effect (Pie Shape) Hits enemies directly behind target.
-- Culverin (max 1)
+Increased Damage, added area of effect (Pie Shape) Hits enemies directly behind target. Very effective against crowds
+- Culverin (max 2)
 
-Increased Damage, added area of effect (Circle) Outer Radius 2.5
+Increased Damage, added area of effect (Circle) Outer Radius 2.5. Effective against Siege Units
 - Ram (max 4)
 
 Requires 0 population, increased damage/HP.
@@ -168,13 +201,22 @@ Requires 0 population, increased damage/HP.
 Requires 0 population
 
 ### Unit Changes
-- Torch damage has been increased 2x for all units
+
+- Torch damage has been increased for all units
+- Ranged units have increased range
 - Horse Archers 
 
 Movement speed decreased / Damage decreased /  Deals bonus damage against Ranged Units / Can now fire while moving.
 - Villagers
 
 Decreased movement speed / Gather rates / Carry Capacity increased. Limited to max 20.
+- Knights
+
+Charge ability now deals Area of Effect damage
+
+- Horseman
+
+Increased damage against ranged.
 
 
 
@@ -212,8 +254,11 @@ Cost 5000 Stone. Berkshire Palace weapons used. 20 Garrison slots. Max 1
 #### CBA Script
 - Fixed typo 2x
 - Added 'Great Trebuchet' to precache
-- Added help message when you receive a reward
-- Added option for Passive Income (50k p/m)
+- Added extra help messages
+- Added option for Passive Income
+- Merged features from Advanced Game Settings (By Woprock)
+- Added Passive Population Increase from CBA S/H
+
 
 
 
